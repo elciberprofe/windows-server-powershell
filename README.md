@@ -6,7 +6,7 @@
 
 1. Clonar el repositorio
 ```sh
-  git clone https://github.com/elciberprofe/powershell-scripts.git
+  git clone https://github.com/elciberprofe/windows-server-powershell.git
   ```
 2. Abrir el terminal de PowerShell como Administrador y acceder a la carpeta con todos los scripts
 ```sh
