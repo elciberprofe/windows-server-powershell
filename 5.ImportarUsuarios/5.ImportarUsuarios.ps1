@@ -1,3 +1,15 @@
+# Título: Modificar el nombre del equipo
+# Fecha: 11/10/2022
+# Autor: Xavi García (ElCiberProfe)
+# Lenguaje: PowerShell
+# Probado en: Windows PowerShell v5.1
+
+##################################
+#                                #
+# CONTENIDO CON FINES EDUCATIVOS #
+#                                #
+##################################
+
 #1.6 Importar los usuarios en el Directorio Activo a partir de un fichero Excel o CSV
 $ErrorActionPreference = 'SilentlyContinue'
 $ProgressPreference = 'SilentlyContinue'

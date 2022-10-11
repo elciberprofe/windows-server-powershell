@@ -1,3 +1,15 @@
+# Título: Modificar el nombre del equipo
+# Fecha: 11/10/2022
+# Autor: Xavi García (ElCiberProfe)
+# Lenguaje: PowerShell
+# Probado en: Windows PowerShell v5.1
+
+##################################
+#                                #
+# CONTENIDO CON FINES EDUCATIVOS #
+#                                #
+##################################
+
 #1.4 Genera informes en CSV y HTML con los Usuarios y Ordenadores del AD
 $separador = "-"*50
 #Utilizar variable de entorno $HOME

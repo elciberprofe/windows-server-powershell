@@ -1,3 +1,15 @@
+# Título: Modificar el nombre del equipo
+# Fecha: 11/10/2022
+# Autor: Xavi García (ElCiberProfe)
+# Lenguaje: PowerShell
+# Probado en: Windows PowerShell v5.1
+
+##################################
+#                                #
+# CONTENIDO CON FINES EDUCATIVOS #
+#                                #
+##################################
+
 #1.5 Crear una estructura de Unidades Organizativas importando un CSV
 $ErrorActionPreference = 'SilentlyContinue'
 $ProgressPreference = 'SilentlyContinue'
