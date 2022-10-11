@@ -34,3 +34,15 @@
 ## 3. SCRIPT (ActiveDirectory.ps1)
 
 <p>Automatiza la instalación del rol Directorio Activo y la promoción a Controlador de Dominio.</p>
+
+## 4. SCRIPT (EstructuraOU.ps1)
+
+<p>Automatiza la importación de una estructura de Unidades Organizativas a partir de un fichero Excel.</p>
+
+## 5. SCRIPT (ImportarUsuarios.ps1)
+
+<p>Automatiza la importación de Usuarios y sus fotos de perfil a partir de un fichero Excel.</p>
+
+## 6. SCRIPT (Informes.ps1)
+
+<p>Exporta información de Usuarios y Equipos en ficheros CSV y HTML.</p>
