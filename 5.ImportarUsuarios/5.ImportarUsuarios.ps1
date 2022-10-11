@@ -4,9 +4,9 @@ $ProgressPreference = 'SilentlyContinue'
 $WarningPreference = 'SilentlyContinue'
 $separador = "-"*50
 
-$usuarios = Import-Csv -Path 'C:\Users\Administrador\Desktop\Scripts\Usuarios.csv' -Delimiter ';' -Encoding Default
-$dominio = (Get-ADDomain | Select DNSRoot).DNSRoot
-$dn = (Get-ADDomain | Select DistinguishedName).DistinguishedName
+$usuarios = Import-Csv -Path '.\Usuarios.csv' -Delimiter ';' -Encoding Default
+$dominio = Get-ADDomain | Select -ExpandProperty DNSRoot
+$dn = Get-ADDomain | Select -ExpandProperty DistinguishedName
 
 $usuariosImportados = 0
 $usuariosNoImportados = 0
@@ -71,7 +71,7 @@ foreach ($usuario in $usuarios) {
 
             Write-Host "[+]Se ha asignado a la Unidad Organizativa de $ciudad : $departamento"
 
-            $foto = [byte[]](Get-Content "C:\Users\Administrador\Desktop\Scripts\imgUsuarios\$nombreUsuario.jpg" -Encoding byte)
+            $foto = [byte[]](Get-Content ".\imgUsuarios\$nombreUsuario.jpg" -Encoding byte)
             Set-ADUser $nombreUsuario -Replace @{thumbnailPhoto=$foto}
 
             Write-Host "[+]Se ha asignado una foto de perfil para el usuario: $nombreUsuario"

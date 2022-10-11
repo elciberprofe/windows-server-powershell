@@ -6,7 +6,7 @@ $separador = "-"*50
 
 $nombreRaiz = (Get-ADDomain).DistinguishedName
 
-$csv = Import-Csv -Path 'C:\Users\Administrador\Desktop\Scripts\ou.csv' -Delimiter ';'
+$csv = Import-Csv -Path '.\ou.csv' -Delimiter ';'
 
 foreach ($ciudad in $csv.Ciudad) {
     if ($ciudad -ne "") {
