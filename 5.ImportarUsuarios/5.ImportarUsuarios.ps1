@@ -1,4 +1,4 @@
-# Título: Modificar el nombre del equipo
+# Título: Importar usuarios de un Excel
 # Fecha: 11/10/2022
 # Autor: Xavi García (ElCiberProfe)
 # Lenguaje: PowerShell
